@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "lamda",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "lamda::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lamda-Debug-d2854e43d15ca2ed2f98.json",
+					"name" : "lamda",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/denis/Desktop/\u041a\u043e\u0414\u0414\u0438\u043d\u0433/Homework/Block 2/lesson 1/Task 1  lamda/out/build/x64-Debug",
+		"source" : "C:/Users/denis/Desktop/\u041a\u043e\u0414\u0414\u0438\u043d\u0433/Homework/Block 2/lesson 1/Task 1  lamda"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}
