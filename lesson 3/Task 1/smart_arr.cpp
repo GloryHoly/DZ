@@ -3,9 +3,9 @@
 
 Smart_arr::Smart_arr(int size)
 	{
-		if (size < 0)
+		if (size <= 0)
 		{
-			throw exception("Размер массива не может быть отрицательным");
+			throw std::exception("Размер массива не может быть отрицательным или равен 0");
 		}
 		this->size = size;
 		this->arr = new int[size]();
@@ -39,10 +39,15 @@ Smart_arr::Smart_arr(int size)
 		{
 			throw std::out_of_range("Индекс выходит за пределы допустимого диапазона");
 		}
-		if (arr[i] == 0)
+		if (i > actual_size)
 		{
-			throw exception("пустой элемент массива");
+			throw std::exception("элемент массива ещё не добавлен, добавьте элемент!");
 		}
+		if (i < 0)
+		{
+			throw std::exception("элемент массива не может быть отрицательным!");
+		}
+		
 		return arr[i];
 	}
 
