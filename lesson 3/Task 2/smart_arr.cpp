@@ -56,6 +56,7 @@ Smart_arr::Smart_arr(int size)
 	{
 		size = other.size;
 		actual_size = other.actual_size;
+		arr = new int[other.size]();
 		for (int i = 0; i < other.size; i++)
 		{
 			arr[i] = other.arr[i];

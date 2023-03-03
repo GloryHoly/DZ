@@ -21,8 +21,8 @@ int main()
 		std::cout << new_array.get_element(1) << std::endl;
 
 		arr = new_array;
-		std::cout << arr.get_element(2) << std::endl;
-		std::cout << new_array.get_element(2) << std::endl;
+		std::cout << arr.get_element(1) << std::endl;
+		std::cout << new_array.get_element(1) << std::endl;
 	}
 	catch (const std::exception& ex)
 	{
